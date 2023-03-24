@@ -1,0 +1,169 @@
+:root {
+  --primary-text-color: #4d5ae5;
+  --headings-color: #2e2f42;
+  --text-color: #434455;
+  --background-color: #ffffff;
+  --lightmode-color: #f4f4fd;
+  --pressed-state-color: #404bbf;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* ------------------Header-------------- */
+.logo {
+  color: var(--primary-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-navy {
+  color: var(--headings-color);
+}
+.logo-iris {
+}
+.nav-link {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contacts {
+  font-style: normal;
+}
+.contact {
+  color: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus,
+.contact:hover,
+.contact:focus {
+  color: var(--pressed-state-color);
+}
+/* -------------Main Studio-------------------- */
+.hero {
+  background-color: var(--headings-color);
+}
+.hero-title {
+  color: var(--background-color);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+  background-color: var(--primary-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--pressed-state-color);
+}
+.adv-hidden {
+  visibility: hidden;
+}
+.adv-title {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.adv-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.work-title {
+  color: var(--headings-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team {
+  background-color: var(--lightmode-color);
+}
+.team-card {
+  background-color: var(--background-color);
+}
+.team-name {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* ----------------Main Portfolio------------- */
+.filter-btn {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--lightmode-color);
+  font-family: inherit;
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--background-color);
+  background-color: var(--pressed-state-color);
+}
+.card-title {
+  color: var(--headings-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.card-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* ------------Footer---------------- */
+.footer-slogan {
+  color: var(--lightmode-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer {
+  background-color: var(--headings-color);
+}
+.logo-cloud {
+  color: var(--lightmode-color);
+}
